@@ -1,16 +1,16 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import macOs from "../../Assets/TechIcons/Apple MacOSX.svg";
+import windows from "../../Assets/TechIcons/windows.svg";
 import chrome from "../../Assets/TechIcons/Google Chrome.svg";
-import vsCode from "../../Assets/TechIcons/vscode.svg";
-import intelliJ from "../../Assets/TechIcons/intellij-idea.svg";
+import vsCode from "../../Assets/TechIcons/vscode.svg"; 
+import github from "../../Assets/TechIcons/github.svg";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <img src={macOs} alt="macOs" className="tech-icon-images" />
-        <div className="tech-icons-text">Mac Os</div>
+        <img src={windows} alt="windows" className="tech-icon-images" />
+        <div className="tech-icons-text">Windows</div>
       </Col>
       <Col xs={4} md={2} className="tech-icons ">
         <img src={chrome} alt="Chrome" className="tech-icon-images" />
@@ -22,8 +22,8 @@ function Toolstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons ">
-        <img src={intelliJ} alt="go" className="tech-icon-images" />
-        <div className="tech-icons-text">IntelliJ</div>
+        <img src={github} alt="github" className="tech-icon-images" />
+        <div className="tech-icons-text">Git Hub</div>
       </Col>
     </Row>
   );

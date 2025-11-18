@@ -22,15 +22,15 @@ function Home() {
           <Row>
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Bienvenido a mi portafolio!{" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> SOUMYAJIT BEHERA</strong>
+                SOY
+                <strong className="main-name"> ANDRÉ HUAROTO YURIHUAMAN</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -54,51 +54,32 @@ function Home() {
       <Container>
         <Row style={{ paddingTop: "50px", paddingBottom: "80px" }}>
           <Col md={12} className="home-about-social">
-            <h1>Find Me On</h1>
+            <h1>Contáctame</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Para estar en <span className="purple">contacto </span>conmigo, puedes
+              encontrarme en las siguientes<span className="purple"> redes sociales: </span>
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Andresito1234-30"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
                 </a>
-              </li>
+              </li> 
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/huaroto-yurihuaman-andre-leosan-27b915332?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BeBuhrbq7QZuHPKJMCnM3CA%3D%3D"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+              </li> 
             </ul>
           </Col>
         </Row>

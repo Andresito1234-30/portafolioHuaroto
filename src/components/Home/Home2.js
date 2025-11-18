@@ -10,41 +10,32 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              PERMÍTAME <span className="purple">PRESENTARME</span>:
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              Soy un estudiante de Ingeniería de Sistemas apasionado por la tecnología, el desarrollo de software y la ciberseguridad. Me gusta transformar ideas en soluciones digitales funcionales, eficientes y con un enfoque práctico.
               <br />
               <br />
-              I’m proficient in
+              A lo largo de mi formación he trabajado con diversos lenguajes y herramientas como
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  JavaScript, Tailwind, HTML, Node.js, y CSS{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — disfrutando siempre el proceso de desarrollo.
               <br />
               <br />
-              My key areas of interest include developing
+              Disfruto diseñar aplicaciones que combinan un
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  backend sólido con una interfaz clara e intuitiva,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              aplicando siempre lógica estructurada y buenas prácticas.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

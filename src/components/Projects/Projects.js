@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import css2 from "../../Assets/Projects/css2.png";
+import css3 from "../../Assets/Projects/css3.png";
+import tailwind from "../../Assets/Projects/tailwind.png";
+import javPort from "../../Assets/Projects/javPort.png"; 
 
 function Projects() {
   return (
@@ -15,78 +13,53 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Mis proyectos durante <strong className="purple">este semestre </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Estos son algunos pequeños proyectos que se realizaron durante <strong className="purple">el semestre 2025-II </strong>, en el curso de <strong className="purple">Desarrollo Web Full Stack </strong>.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={css2}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Página con CSS3 Básico"
+              description="Esta sección presenta una página web desarrollada con CSS3 básico, donde aplico conceptos fundamentales de estilos para dar estructura, color y organización visual a una interfaz. Incluye el uso de propiedades esenciales como márgenes, paddings, fuentes, colores, bordes y alineaciones. Es un ejemplo sencillo pero funcional de cómo transformo una página HTML estática en un diseño más atractivo y ordenado mediante hojas de estilo en cascada."
+              ghLink="https://andresito1234-30.github.io/SEMANA05-DESARROLLOWEB/pages/CSS2.html" 
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="Página con CSS3, Responsive y Animaciones">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={css3}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Página con CSS3, Responsive y Animaciones"
+              description="En esta sección muestro una página diseñada con CSS3, incorporando técnicas de diseño responsive para adaptarse correctamente a diferentes dispositivos y tamaños de pantalla. También implementé animaciones y transiciones que mejoran la experiencia visual del usuario, manteniendo un diseño limpio, dinámico y moderno. Es un ejemplo práctico de cómo combinar estilos avanzados con usabilidad."
+              ghLink="https://andresito1234-30.github.io/SEMANA05-DESARROLLOWEB/pages/CSS3.html" 
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="Página utilizando Tailwind CSS">
             <ProjectCard
-              imgPath={editor}
+              imgPath={tailwind}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Página utilizando Tailwind CSS"
+              description="Aquí presento una página construida con Tailwind CSS, un framework utilitario que permite crear interfaces de forma rápida, ordenada y altamente personalizable. En este proyecto apliqué clases utilitarias para maquetar, diseñar y estructurar la página sin necesidad de escribir CSS tradicional. El resultado es un diseño limpio, responsivo y optimizado, demostrando mi capacidad para trabajar con herramientas modernas del frontend."
+              ghLink="https://andresito1234-30.github.io/SEMANA05-DESARROLLOWEB/pages/tailwind/tailwind.html"   
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={4} className="Página implementando HTML, CSS y JS">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={javPort}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Página implementando HTML, CSS, JS y Correo - JS"
+              description="Esta página integra HTML, CSS y JavaScript para construir una interfaz funcional e interactiva. Utilicé HTML para la estructura, CSS para la presentación y JS para agregar lógica, efectos y dinamismo. Adicionalmente, se agregó tambipen la función de enviar mensajes mediante correo electrónicos. Este proyecto refleja mi dominio de las bases del desarrollo web y mi habilidad para unir estas tecnologías fundamentales en una experiencia completa y fluida."
+              ghLink="https://andresito1234-30.github.io/SEMANA05-DESARROLLOWEB/pages/portafolioScript.html" 
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+ 
+ 
         </Row>
       </Container>
     </Container>
