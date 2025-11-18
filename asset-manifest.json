@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/portafolioHuaroto/static/css/main.66983dd4.css",
+    "main.js": "/portafolioHuaroto/static/js/main.83429e74.js",
+    "static/js/453.ac9b7e2a.chunk.js": "/portafolioHuaroto/static/js/453.ac9b7e2a.chunk.js",
+    "static/media/tailwind.png": "/portafolioHuaroto/static/media/tailwind.e7d4b3510a9e7c7d7ea2.png",
+    "static/media/javPort.png": "/portafolioHuaroto/static/media/javPort.dae8af9e6c91aa11417d.png",
+    "static/media/css2.png": "/portafolioHuaroto/static/media/css2.4558386933f7577a6762.png",
+    "static/media/css3.png": "/portafolioHuaroto/static/media/css3.b712a9ece9a01422018f.png",
+    "static/media/home-main.svg": "/portafolioHuaroto/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/portafolioHuaroto/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/avatar.svg": "/portafolioHuaroto/static/media/avatar.0521288c53cedf1067b2ce82f2ff7bce.svg",
+    "static/media/logo.png": "/portafolioHuaroto/static/media/logo.fd137f929065e5e0b621.png",
+    "static/media/oauth.svg": "/portafolioHuaroto/static/media/oauth.744fc2da3417993a9bd0447a46caaa04.svg",
+    "static/media/PHP.svg": "/portafolioHuaroto/static/media/PHP.13026e384920a404e2398afa9d0d676c.svg",
+    "static/media/SQL.svg": "/portafolioHuaroto/static/media/SQL.52fc098126b8b29ddd950a944b5d0026.svg",
+    "static/media/Mongo.svg": "/portafolioHuaroto/static/media/Mongo.330a0b8d252ae55ce72f3b6d60388b73.svg",
+    "static/media/Docker.svg": "/portafolioHuaroto/static/media/Docker.b02bde45de78f064309327b59c188428.svg",
+    "static/media/xampp (1).svg": "/portafolioHuaroto/static/media/xampp (1).2e3a82882535030b99afd76fce66da40.svg",
+    "static/media/vscode.svg": "/portafolioHuaroto/static/media/vscode.01c32f3da6e0380beb0ed980549fa10d.svg",
+    "static/media/html-5.svg": "/portafolioHuaroto/static/media/html-5.60d39fbd381111b877f891d23deb0da4.svg",
+    "static/media/Google Chrome.svg": "/portafolioHuaroto/static/media/Google Chrome.d37257e4fd1f57a382e297a74a566225.svg",
+    "static/media/vitejs.svg": "/portafolioHuaroto/static/media/vitejs.20fb724909d8b85509b036e950042d52.svg",
+    "static/media/React.svg": "/portafolioHuaroto/static/media/React.dab5e742691999bfe3df57d8d690607b.svg",
+    "static/media/pre.svg": "/portafolioHuaroto/static/media/pre.4410c5baaa673cc131da.svg",
+    "static/media/Java.svg": "/portafolioHuaroto/static/media/Java.edcb9f2574179c38ce343ae59e91b5bc.svg",
+    "static/media/Node.svg": "/portafolioHuaroto/static/media/Node.066ea1a40c1c8f42c3facd6c4128111d.svg",
+    "index.html": "/portafolioHuaroto/index.html",
+    "static/media/Javascript.svg": "/portafolioHuaroto/static/media/Javascript.2d2e6d4fde8c0beaf89875c287164a7c.svg",
+    "static/media/github.svg": "/portafolioHuaroto/static/media/github.3b21c250a99986431958daaa9246a45a.svg",
+    "static/media/Git.svg": "/portafolioHuaroto/static/media/Git.9da88573cca3c97a3a1523ae09d93654.svg",
+    "static/media/Tailwind.svg": "/portafolioHuaroto/static/media/Tailwind.5dc20a22c455a7a4efeeb9cba430f50b.svg",
+    "static/media/windows.svg": "/portafolioHuaroto/static/media/windows.e40a93639f7fe1e3bda382d16bfef3ce.svg",
+    "main.66983dd4.css.map": "/portafolioHuaroto/static/css/main.66983dd4.css.map",
+    "main.83429e74.js.map": "/portafolioHuaroto/static/js/main.83429e74.js.map",
+    "453.ac9b7e2a.chunk.js.map": "/portafolioHuaroto/static/js/453.ac9b7e2a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66983dd4.css",
+    "static/js/main.83429e74.js"
+  ]
+}
