@@ -6,6 +6,7 @@ import css2 from "../../Assets/Projects/css2.png";
 import css3 from "../../Assets/Projects/css3.png";
 import tailwind from "../../Assets/Projects/tailwind.png";
 import javPort from "../../Assets/Projects/javPort.png"; 
+import dashboard from "../../Assets/Projects/dashboard.png"; 
 
 function Projects() {
   return (
@@ -59,7 +60,16 @@ function Projects() {
             />
           </Col>
  
- 
+          <Col md={4} className="Proyecto Dashboard con PHP">
+            <ProjectCard
+              imgPath={dashboard}
+              isBlog={false}
+              title="Página implementando HTML, CSS, JS y Correo - JS"
+              description="Sistema web completo para la gestión de ventas, que permite administrar vendedores, registrar transacciones y generar reportes visuales en tiempo real. El sistema está desplegado en la nube utilizando servicios gratuitos y tecnologías modernas." 
+            />
+          </Col>
+
+                
         </Row>
       </Container>
     </Container>
