@@ -59,16 +59,16 @@ function Projects() {
               ghLink="https://andresito1234-30.github.io/SEMANA05-DESARROLLOWEB/pages/portafolioScript.html" 
             />
           </Col>
- 
+
           <Col md={4} className="Proyecto Dashboard con PHP">
             <ProjectCard
               imgPath={dashboard}
               isBlog={false}
-              title="Página implementando HTML, CSS, JS y Correo - JS"
-              description="Sistema web completo para la gestión de ventas, que permite administrar vendedores, registrar transacciones y generar reportes visuales en tiempo real. El sistema está desplegado en la nube utilizando servicios gratuitos y tecnologías modernas." 
+              title="Proyecto Dashboard con PHP"
+              description="Sistema web completo para la gestión de ventas, que permite administrar vendedores, registrar transacciones y generar reportes visuales en tiempo real. El sistema está desplegado en la nube utilizando servicios gratuitos y tecnologías modernas.El dashboard presenta información consolidada en tiempo real. El gráfico de barras muestra los 10 vendedores con más transacciones, utilizando Chart.js para visualización interactiva. El badge del sidebar se actualiza dinámicamente consultando la base de datos. Todo el diseño es responsive y se adapta a móviles."
+              ghLink="https://huarotodashboard.infinityfreeapp.com" 
             />
           </Col>
-
                 
         </Row>
       </Container>
